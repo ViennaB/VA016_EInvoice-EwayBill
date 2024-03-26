@@ -62,14 +62,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Common\DBFuncCollection.cs" />
-    <Compile Include="Common\DocActionSpecification.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Common\" />
     <Folder Include="Model\" />
     <Folder Include="Process\" />
   </ItemGroup>
